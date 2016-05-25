@@ -1,0 +1,41 @@
+//
+//  PrefixHeader-SCBY.pch
+//  SCBY-ZXRJ
+//
+//  Created by ios on 15/12/3.
+//  Copyright © 2015年 ZXRJ. All rights reserved.
+//
+
+#ifndef PrefixHeader_SCBY_pch
+#define PrefixHeader_SCBY_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "AppDelegate.h"
+#import "SDProgressView.h"
+#import "IsNetWork.h"
+#import "AllUrl.h"
+#import "MapViewController.h"
+#import "MainConnection.h"
+#import "APService.h"
+#import "MyUnitilty.h"
+#import "TextFieldCell.h"
+#import "OverLineDB.h"
+#import "LoginModel.h"
+#import "CurrentSellocde.h"
+#import "CommonlyTableView.h"
+#import "Masonry.h"
+#import "AlertPassword.h"
+#import <MobileCoreServices/MobileCoreServices.h>
+#import <BaiduMapAPI_Location/BMKLocationComponent.h>//引入定位功能所有的头文件
+
+
+
+#define kMainSize ([UIScreen mainScreen].bounds)
+#define kViewWidth (self.view.frame.size.width)
+#define kViewHeight (self.view.frame.size.height)
+#define kTimeWidth (self.view.frame.size.width-80)/3
+#define sizeWidth (self.view.frame.size.width-30)/2
+
+#endif /* PrefixHeader_SCBY_pch */
